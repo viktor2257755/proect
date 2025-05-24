@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tokyo Drive</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+  <div class="logo">Tokyo Drive</div>
+  <nav class="menu">
+    <a href="#">Головна</a>
+    <a href="#">Про нас</a>
+    <a href="#">Топ-20</a>
+    <a href="#">Відгуки</a>
+    <a href="#">Контакти</a>
+    <a href="cart.html" class="cart-button">
+      <img src="https://cdn-icons-png.flaticon.com/128/5392/5392794.png" alt="Кошик" width="30" height="30">
+      Кошик
+    </a>
+  </nav>
+  <form id="searchForm" class="d-flex" role="search">
+    <input class="form-control" type="search" placeholder="Пошук" aria-label="Search">
+    <button class="btn btn-outline-secondary btn-search" type="submit">Знайти</button>
+  </form>
+</header>
+  <section class="car-image">
+    <img src="https://cdn.pixabay.com/photo/2023/03/15/03/45/subaru-7853616_1280.jpg" alt="Машина" />
+    <h1><span class="white">Tokyo</span> <span class="red">Drive</span></h1>
+    <p class="description">
+      Це простір для справжніх фанатів японських авто. Ми спеціалізуємось на пошуку та продажу рідкісних JDM-машин із самої Японії: від культових спорткарів до лімітованих моделей, які стали легендами. Наша місія — доставити легенду з Токіо до твого гаража. Ми не просто продаємо машини — ми передаємо частинку японської культури швидкості.
+    </p>
+  </section>
+<section id="about-us">
+  <h2><span class="black">Про</span> <span class="red">нас</span></h2>
+  <p>Токіо Драйв — це онлайн-магазин рідкісних японських авто. Ми знаходимо, перевіряємо та привозимо легендарні JDM-моделі прямо з Японії. У нашому каталозі — лише оригінальні авто: від культових Skyline і Supra до унікальних екземплярів, яких не знайдеш на звичайному ринку. Наша мета — зробити японську мрію на колесах доступною кожному ентузіасту.</p>
+</section>
+<div class="top-header">
+  <h3>Топ 20</h3>
+  <img src="https://cdn-icons-png.flaticon.com/128/2736/2736918.png" alt="Car Icon" class="car-icon">
+</div>
+<div class="cards">
+  <div class="card">
+    <img src="https://i.pinimg.com/736x/1f/5e/e9/1f5ee950f415ae0b54acd55fcb4f4325.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Nissan GT-R R34</h1>
+    <p class="price">$234,000</p>
+    <p>культовий JDM спорткар з турбованим двигуном і повним приводом.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://i.ytimg.com/vi/lJLsF79c2IM/maxresdefault.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Mazda RX-7</h1>
+    <p class="price">$44,000</p>
+    <p>легенда з роторним двигуном і чудовою динамікою.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://1884403144.rsc.cdn77.org/foto/honda-nsx-honda-nsx/Njg4eDAvc21hcnQvaW1n/7031186.jpg?v=0&st=gb2DnfepCPQEVM7RkJ-dY2Rfz1ZcFep9WQAwn61FJPY&ts=1600812000&e=0" alt="Denim Jeans" style="width:100%">
+    <h1>Honda NSX</h1>
+    <p class="price">$75,000</p>
+    <p>середньомоторний суперкар з Японії, створений для треку і дороги.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://cdn.shopify.com/s/files/1/0263/5212/3958/files/Mitsubishi_Lancer_EVO_IX_600x600.jpg?v=1687188924" alt="Denim Jeans" style="width:100%">
+    <h1>Mitsubishi Lancer Evo IX</h1>
+    <p class="price">$37,000</p>
+    <p>повнопривідний седан для ралі з турбомотором.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://cdn.pixabay.com/photo/2023/03/15/03/45/subaru-7853615_960_720.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Subaru Impreza WRX STI</h1>
+    <p class="price">$22,500</p>
+    <p>повнопривідний спортседан для ралі з турбомотором.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://i.pinimg.com/736x/eb/c3/2c/ebc32cf83cf36f2dfd1b3856da497101.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Toyota AE86</h1>
+    <p class="price">$40,000</p>
+    <p>середньомоторний спорткар з Японії, створений для треку і дороги.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://i.pinimg.com/736x/63/6a/4d/636a4d4e2d5f5fc90c7f6e2764b877f5.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Nissan 350Z</h1>
+    <p class="price">$14,900</p>
+    <p>спортивний автомобіль з 3.5L V6, потужністю до 313 к.с.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://i.pinimg.com/736x/39/7e/75/397e75778659e3226ab04c0b41ac2e9d.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Civic Type R EK9</h1>
+    <p class="price">$30,500</p>
+    <p>спортивний хетчбек, 182 к.с., 1.6L двигун.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://images.collectingcars.com/026443/main.jpg?w=1263&fit=fillmax&crop=edges&auto=format,compress&cs=srgb&q=85" alt="Denim Jeans" style="width:100%">
+    <h1>Subaru Impreza WRX STI 2004</h1>
+    <p class="price">$26,000</p>
+    <p>повнопривідний спортседан з турбодвигуном, створений для ралі.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Lexus_LFA_Yellow_Las_Vegas.jpg/1200px-Lexus_LFA_Yellow_Las_Vegas.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Lexus LFA</h1>
+    <p class="price">$1,300,000</p>
+    <p>рідкісний V10 суперкар із вуглепластику, дуже дорогий і гучний.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://i.pinimg.com/736x/43/da/e8/43dae8beb5ce0346e9c60f1b34a540a1.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Nissan Silvia S15</h1>
+    <p class="price">$30,000</p>
+    <p>легке купе, ідеальне для дрифту.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://bringatrailer.com/wp-content/uploads/2023/08/1998_toyota_supra_powersportraits-6237-47221.jpg" alt="Denim Jeans" style="width:100%">
+    <h1>Toyota Supra A80</h1>
+    <p class="price">$40,000</p>
+    <p>японське спорткупе з мотором 2JZ, популярне в тюнінгу.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://i.pinimg.com/736x/17/2a/6a/172a6a2f1098492a02e30403d991941c.jpg" style="width:100%">
+    <h1>Nissan GT-R R35 2012</h1>
+    <p class="price">$78,000</p>
+    <p>спорткар, 530 к.с., 3,8 л турбо V6, 3,0 с до 100 км/год.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://media.ed.edmunds-media.com/mazda/mx-5-miata/2016/oem/2016_mazda_mx-5-miata_convertible_club_fq_oem_5_1600.jpg" style="width:100%">
+    <h1> Mazda MX-5 Miata 2016</h1>
+    <p class="price">$16,900</p>
+    <p>2,0 л, 160 к.с., розгін до 100 км/год за 6,5 с.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://i.pinimg.com/736x/d3/ad/dd/d3addd4fc79e60466f6be2261f68a5f7.jpg" style="width:100%">
+    <h1>Toyota Celica GT-Four ST205</h1>
+    <p class="price">$19,000</p>
+    <p>2,0 л, 242 к.с., 0-100 км/год за 6,3 с, повний привід.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://i.pinimg.com/736x/8a/93/dd/8a93dde6dcc407ac3ee39c4ad95097ee.jpg" style="width:100%">
+    <h1>Honda S2000</h1>
+    <p class="price">$45,000</p>
+    <p> спортивний родстер з 2,0 л або 2,2 л двигуном (240-250 к.с.), розгін до 100 км/год — 6 с..</p>
+   <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://www.premierfinancialservices.com/wp-content/uploads/2016/04/2017_Acura_NSX___020.jpg" style="width:100%">
+    <h1>Acura NSX 2017</h1>
+    <p class="price">$157,500</p>
+    <p> гібридний суперкар з 3.5L V6, трьома електромоторами, повним приводом і розгоном 0–100 км/год за 3 секунди.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://carwitter.com/wp-content/uploads/2018/06/2018-Suzuki-Swift-Sport-Review-Front-Angle-carwitter.jpg" style="width:100%">
+    <h1>Suzuki Swift Sport 2018</h1>
+    <p class="price">$18,995</p>
+    <p>компактний,спортивний хетчбек з 1.4 турбомотором, потужністю 140 к.с., легкою вагою та відмінною керованістю.</p>
+   <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://media.carsandbids.com/cdn-cgi/image/width=2080,quality=70/7a0a3c6148108c9c64425dd85e0181fa3cccb652/photos/rw7Ayllr.cydsiwXVA-(edit).jpg?t=162611900979" style="width:100%">
+    <h1>Lexus IS 2003</h1>
+    <p class="price">$7,000</p>
+    <p>спортивний седан з заднім приводом, надійний та стильний. Має високу керованість і якісні матеріали в салоні.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+  <div class="card">
+    <img src="https://static.cargurus.com/images/site/2009/05/19/21/08/2007-subaru-outback-pic-23422-1600x1200.jpeg" style="width:100%">
+    <h1>Subaru Outback 2007</h1>
+    <p class="price">$7,000</p>
+    <p> універсальний кросовер з повним приводом і комфортним салоном. Підходить для міста та легкого бездоріжжя.</p>
+    <button data-cart class="btn-bye">Купити</button>
+  </div>
+</div>
+<section id="reviews" style="margin-top: 50px;">
+  <div class="review-banner">
+    <span class="review-text">відгуки</span>
+    <span class="review-icon">
+      <img src="https://cdn-icons-png.flaticon.com/128/11213/11213138.png" alt="Іконка" style="width: 40px; height: 40px; vertical-align: middle;">
+    </span>
+  </div>
+</div>
+  <div class="review-blocks">
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <div class="profile">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7TDEvh-LSUFwUQy0GtHlTpF8NynX_1M986w&s" alt="Пол Уокер">
+        <h3>Пол Уокер</h3>
+      </div>
+      <p class="quote">"Коли я вперше сів за кермо Skyline, я зрозумів — це не просто авто. Це характер, це стиль, це відчуття дороги в кожному повороті. Вона не про швидкість. Вона про зв’язок із дорогою, з людьми, з тим, ким ти є насправді. І якщо десь там, у Токіо, ще чути звук турбіни — значить легенда жива."</p>
+    </div>
+    <div class="review-card">
+      <div class="stars">★★★★★</div>
+      <div class="profile">
+        <img src="https://bookingagentinfo.com/wp-content/uploads/2023/06/Sung-Kang-1.png" alt="Сон Кан">
+        <h3>Сон Кан</h3>
+      </div>
+      <p class="quote">"Ми з RX-7 пройшли багато доріг разом. Це більше, ніж просто машина — це частина мене. Вона як дрифт: не завжди промисловіша, але завжди з душею. У кожному повороті, у кожному реві двигуна — відчувається, що це не просто швидкість, це мистецтво. Якщо ти не розумієш, що таке дрифт, тоді ти не розумієш, що таке справжня машина."</p>
+    </div>
+  </div>
+</section>
+<section class="contact-section">
+  <div class="contact-header">
+    <h2>Ми <span class="red">завжди</span> на зв'язку!</h2>
+  </div>
+  <div class="contact-body">
+    <div class="contact-left">
+      <form>
+        <input type="text" placeholder="Ім'я" />
+        <input type="email" placeholder="Email" />
+        <input type="tel" placeholder="Номер телефону" />
+        <textarea placeholder="Повідомлення"></textarea>
+        <button type="submit" class="glow-on-hover">Надіслати</button>
+      </form>
+    </div>
+    <div class="contact-right">
+      <img src="5253970666871451465.jpg" alt="Контакт фото" class="contact-image" />
+    </div>
+  </div>
+</section>
+<footer class="site-footer">
+  <div class="footer-container">
+    
+    <div class="footer-left">
+      <h3>Tokyo Drive</h3>
+      <p>вул. Незалежності 12, Київ, Україна</p>
+      <p>Телефон: <a href="tel:+380991234567">+38 (099) 123-45-67</a></p>
+      <p>Email: <a href="Tokyo Drive@gmail.com">Tokyo Drive@gmail.com</a></p>
+    </div>
+
+    <div class="footer-center">
+      <h4>Меню</h4>
+      <ul class="footer-links">
+        <li><a href="#">Головна</a></li>
+        <li><a href="#">Про нас</a></li>
+        <li><a href="#">Топ-20</a></li>
+        <li><a href="#">Відгуки</a></li>
+        <li><a href="#">Контакти</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-right">
+      <h4>Ми у соцмережах</h4>
+      <div class="social-icons">
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384005.png" alt="Facebook"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384015.png" alt="Instagram"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111710.png" alt="Telegram"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/2168/2168336.png" alt="twitter"></a>
+      </div>
+    </div>
+
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Tokyo Drive. Усі права захищені.</p>
+  </div>
+</footer>
+
+  </body>
+  <script src="script.js"></script>
+  </html>
+  
+  
+  
